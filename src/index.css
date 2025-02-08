@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #faf5cf;
+  --color-primary-700: #a37d54;
+  --color-grayscale-200: #e6e6e6;
+  --color-grayscale-400: #c4c4c4;
+  --color-grayscale-700: #2b2b2b;
+  --color-grayscale-800: #1a1a1a;
+  --color-grayscale-900: #000000;
+  --font-manrope: "Manrope";
+}
+
+body {
+  @apply bg-grayscale-800 p-4 font-manrope text-white;
+}
+
+button {
+  @apply rounded-md bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-2 font-semibold text-black hover:opacity-50 disabled:from-grayscale-700 disabled:to-grayscale-700 disabled:text-white disabled:opacity-50;
+}
+
+input[type='text'] {
+  @apply rounded-md border-2 border-grayscale-700 bg-grayscale-700 px-2 py-1 text-white shadow-lg outline-none focus:border-primary-500;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
