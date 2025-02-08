@@ -10,7 +10,7 @@
   <br />
 
   <p>
-    Used **Dnd-kit** to make <br />
+    Used <strong>Dnd-kit</strong> to make <br />
     Drag & Drop feature in React
   </p>
 
