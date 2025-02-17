@@ -23,7 +23,7 @@
   <br />
 
   <img
-    src="https://github.com/miinhho/react-drag-drop/blob/main/images/page.png?raw=true"
+    src="./images/page.png"
     alt="page"
   />
   <p>page</p>
